@@ -4,7 +4,114 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>랜딩페이지</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- swiper -->
+      <link rel="stylesheet" href="assets/css/commons.css" />
+      <link rel="stylesheet" href="assets/css/styles.css" />
    </head>
-   <body></body>
+   <body>
+      <header></header>
+      <section class="kv">
+         <div class="swiper kvSlider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide kvSlider__01">
+                  <div class="kv--title text-center">
+                     <h2>
+                        도시의 품격을 담은 휴식<br />
+                        한층 더 특별해지는 당신의 하루
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">예약하러 가기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider__02">
+                  <div class="kv--title text-center">
+                     <h2>
+                        아침부터 밤까지 완벽한 순간<br />
+                        객실, 다이닝, 서비스 모든 것이 당신을 위해
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">예약하러 가기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider__03">
+                  <div class="kv--title text-center">
+                     <h2>
+                        비즈니스와 휴식의 완벽한 조화<br />
+                        머무는 순간마다 느껴지는 차별화된 가치
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">예약하러 가기</a>
+                  </div>
+               </div>
+               <div class="swiper-slide kvSlider__04">
+                  <div class="kv--title text-center">
+                     <h2>
+                        당신의 이야기가 머무는 곳<br />
+                        잊지 못할 경험을 선사하는 호텔
+                     </h2>
+                     <a href="#" class="kv--title__cta mt-20">예약하러 가기</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <!-- kv end -->
+      <!-- content start -->
+      <section class="hotelContent common-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="content--title text-center">
+                     <h3 class="line">CARE HOTEL</h3>
+                     <p>당신을 위한 섬세한 서비스. 머무는 시간, 모든 순간이 특별해집니다.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center mt-40">
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/solar_server-broken.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">프리미엄 객실</h4>
+                     <p class="mt-20">안락함과 세련된 디자인의 완벽한 공간</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/iconoir_internet.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">다이닝 & 라운지</h4>
+                     <p class="mt-20">세계 각국의 미식과 와인이 기다립니다</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/hugeicons_ai-network.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">레저 & 웰니스</h4>
+                     <p class="mt-20">피트니스, 수영장, 스파까지 한자리에서</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/streamline_news-paper.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">비즈니스 지원</h4>
+                     <p class="mt-20">컨퍼런스룸과 맞춤형 서비스로 성공적인 만남을</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- content end -->
+      <!-- start -->
+
+      <script src="assets/js/jquery.slim.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper('.kvSlider', {
+            pagination: {
+               el: '.swiper-pagination',
+            },
+         })
+      </script>
+   </body>
 </html>
