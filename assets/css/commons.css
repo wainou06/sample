@@ -8,6 +8,27 @@ a:hover {
    text-decoration: none;
 }
 
+img {
+   width: 100%;
+}
+
+h2 {
+   font-size: 3rem;
+}
+
+h3 {
+   font-size: 2.395rem;
+}
+
+h4,
+h6 {
+   font-size: 1rem;
+}
+
+h5 {
+   font-size: 1.55rem;
+}
+
 .mt-120 {
    margin-top: 120px;
 }
@@ -22,6 +43,14 @@ a:hover {
 
 .mt-80 {
    margin-top: 80px;
+}
+
+.mb-20 {
+   margin-bottom: 20px;
+}
+
+.mb-40 {
+   margin-bottom: 40px;
 }
 
 .common-padding {

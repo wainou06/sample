@@ -1,34 +1,40 @@
 @import url('commons.css');
 
 .kv .kv--title {
-   height: 680px;
+   height: 600px;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kv--title h2 {
+   color: #fff;
 }
 
 .kv--title__cta {
    padding: 10px 15px;
    border: 1px solid #fff;
    border-radius: 100px;
+   color: #fff;
 }
 
-.content--title h3 {
-   margin-bottom: 60px;
-   position: relative;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.kv--title__cta:hover {
+   background-color: #fff;
+   color: #000;
 }
 
-.content--title .line::before {
-   content: '';
-   width: 60px;
-   height: 1px;
-   background-color: #000;
-   position: absolute;
-   bottom: -20px;
+.swiper-pagination-bullet {
+   width: 15px;
+   height: 3px;
+   border-radius: 0;
+   background: #000;
+   margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+   background: #fff;
 }
 
 .kvSlider__01 {
@@ -57,4 +63,39 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.content--title h3 {
+   margin-bottom: 60px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.content--title .line::before {
+   content: '';
+   width: 60px;
+   height: 1px;
+   background-color: #000;
+   position: absolute;
+   bottom: -20px;
+}
+
+.hotelSlogan {
+   background-color: #dbc4b3;
+}
+
+.service__icon {
+   width: 40%;
+}
+
+.slogan--content {
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 0px 65px;
+}
+
+.slogan--content__icon {
+   max-width: 65px;
 }
