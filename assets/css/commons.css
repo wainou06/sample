@@ -14,18 +14,31 @@ img {
 
 h2 {
    font-size: 3rem;
+   font-family: 'Noto Serif KR';
 }
 
 h3 {
    font-size: 2.395rem;
+   font-family: 'Noto Serif KR';
+   font-weight: 600;
 }
 
 h4 {
    font-size: 1rem;
+   font-family: 'Pretendard';
+   font-weight: 400;
+   color: #2e2e2e;
 }
 
 h5 {
-   font-size: 1.55rem;
+   font-size: 1.65rem;
+}
+
+p {
+   font-size: 0.8rem;
+   font-family: 'Pretendard';
+   font-weight: 400;
+   color: #4d4d4d;
 }
 
 .mt-120 {
