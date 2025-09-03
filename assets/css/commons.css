@@ -8,6 +8,11 @@ a:hover {
    text-decoration: none;
 }
 
+ul {
+   list-style: none;
+   display: flex;
+}
+
 img {
    width: 100%;
 }

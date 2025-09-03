@@ -171,10 +171,20 @@
    padding: 100px 0;
    color: #fff;
 }
+
 .pointSection2 p {
    color: #fff;
 }
 
 footer {
-   background-color: #000;
+   background-color: #2e2e2e;
+}
+
+footer h3 {
+   color: #eee;
+   font-size: 2rem;
+}
+
+footer p {
+   color: #eee;
 }
